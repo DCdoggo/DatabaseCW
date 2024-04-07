@@ -1,4 +1,46 @@
-body{
-    background-color: black;
-    color: aqua;
+
+header{
+    position: absolute;
+    width: 97%;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 0px;
+    color: blue;
+}
+
+aside{
+    position:absolute;
+    top: 155px;
+    width: 15%;
+    height: 660px;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 5px;
+    color: red;
+    
+    color: green;
+}
+
+main{
+    position: absolute;
+    left: 30%;
+    top: 155px;
+    height: 660px;
+    width: 67%;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 5px;
+    color: red;
+
+    color: black;
+}
+
+footer{
+    position: absolute;
+    top: 950px;
+    width: 97%;
+    border: 10px solid green;
+    padding: 50px;
+    /* margin: 10px; */
+    color: red;
 }
