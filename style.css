@@ -1,4 +1,4 @@
-
+/*
 header{
     position: absolute;
     width: 97%;
@@ -41,6 +41,17 @@ footer{
     width: 97%;
     border: 10px solid green;
     padding: 50px;
-    /* margin: 10px; */
-    color: red;
+    margin: 10px; 
+    color red;
+}
+
+*/
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+}
+
+header{
+    grid-area: header;
 }
