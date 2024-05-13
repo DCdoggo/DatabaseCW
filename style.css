@@ -49,6 +49,9 @@ footer{
     border-width: 1px;
     padding: 10px;
     margin: 10px;
+    
+    text-align: center;
+    grid-area: footer;
 }
 
 nav ul li {
